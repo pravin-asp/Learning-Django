@@ -61,7 +61,12 @@ project - applications + configurations
 To run django:
 cmd line tool:
 	django-admin
-	
+--------------------------------------------------------------
+To create a django project:
+	go to the folder/path where you want to store your project
+	django-admin startproject FirstProject
+		FirstProject -> Name of my project 
+---------------------------------------------------------------
 	
 __init__.py 
 	Blank python script.
@@ -93,14 +98,25 @@ asgi.py
 	
 manage.py
 	running our server
-	running tests
+	running apps
 	creating migrations
+	
 	
 -------------------------------------	
 Running the server:
-	manage.py runserver 
+	go to the folder/path where you created the FirstProject
+	python manage.py runserver 
 -------------------------------------
 
 Web Server:
 	http://127.0.0.1:8000/ - This is called Local Host
 		- IP Address - localhost
+		- 8000 - Port Number - default for django web server
+	Providing environment to run web applications 
+	Server - HTTP Request - Web Components - HTTP Response
+
+--------------------------------------------
+Web Application Creation:
+	python manage.py startapp FirstApp
+		FirstApp -> Name of my application 
+--------------------------------------------
