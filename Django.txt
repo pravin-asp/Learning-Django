@@ -95,3 +95,12 @@ manage.py
 	running our server
 	running tests
 	creating migrations
+	
+-------------------------------------	
+Running the server:
+	manage.py runserver 
+-------------------------------------
+
+Web Server:
+	http://127.0.0.1:8000/ - This is called Local Host
+		- IP Address - localhost
