@@ -1,0 +1,97 @@
+
+Python --> programming language
+
+Moduels --> group of functions or class or methods
+
+Packages --> group of modules
+
+Django --> Django is Musician
+			Created for news protal in 2003
+			In 2005, it is made as open source web frame work
+			
+Django --> macro web framework
+			for large level web frame work
+			- HTML
+			- CSS
+			- JS
+			- Bootstrap
+			- jQuery
+			- DOM -> Document Object Model
+
+flast --> micro web framework
+			for small level web frame work
+			
+			
+Design Pattern:
+	MVC -> Model View Controller --> Django does not follow this pattern
+	MVT -> Model View Templates --> Django follows
+	
+Python Web Frame Works:
+	Pyramid, Bottle CherryPy
+	
+Atom IDE:
+Packages to install in Atom IDE:
+	1. platformio-ide-terminal
+	2. Autocomplete python
+	3. atom django
+	
+web server - hardware/software
+
+Traffic - Request
+browser - URL
+protocol - Rules
+
+hyper text transfer protocol - Http
+hyper text transfer protocol secured - Https
+
+Laptop - Hardware - Web Server
+
+HTTP Request ------- HTTP Response
+
+Web Servers:
+	1. Tomcat
+	2. Jetty
+	3. jboss
+	
+Django has inbuilt web server and DB.
+
+project - applications + configurations
+
+
+To run django:
+cmd line tool:
+	django-admin
+	
+	
+__init__.py 
+	Blank python script.
+	Django will consider the particular folder as python package
+	
+settings.py 
+	Project settings, Configurations
+	installed applications configuration
+	database configuration 
+	middleware configuration
+	
+urls.py
+	url - patterns will be stored here
+	website - web pages
+	
+wsgi.py 
+	wsgi - Web Server Gateway Interface
+	This file is used when we deploy our application in Production Server 
+	
+	DEV Environment - Development Environment
+	
+	UAT - User Acceptance Test Environment
+	
+	Production 
+
+asgi.py 
+	Asynchronous 
+	This file is used for loading the particular area of a web page 
+	
+manage.py
+	running our server
+	running tests
+	creating migrations
