@@ -1,0 +1,20 @@
+1) Creation of Django Project
+django-admin startproject Project_Name
+
+2) Creation of Django Application
+python manage.py startapp Application_Name
+
+3) Adding application to my project
+settings.py - INSTALLED APPS
+
+4) views.py (Business Logic)
+	def Fun_name
+	
+5) urls.py 
+	url-pattern
+	
+6) Server
+python manage.py runserver
+
+for running in our own server just type
+python manage.py runserver 8080
