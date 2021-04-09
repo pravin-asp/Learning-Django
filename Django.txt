@@ -120,3 +120,40 @@ Web Application Creation:
 	python manage.py startapp FirstApp
 		FirstApp -> Name of my application 
 --------------------------------------------
+
+__init__.py 
+
+admin.py -> admin interface - Django models
+
+apps.py 
+
+models.py --> application's data models
+
+tests.py -> testing functions 
+
+views.py --> what are the URLs given are to be added in this file
+	1. Function Based Views
+	2. Class Based Views
+
+Migrations - DB specific infromation are stored
+
+-------------------------------------------
+Step 1:
+Add the name of you application in the 
+python file settings.py present in the 
+FirstProject folder.
+	where to add the app name:
+		open settings.py
+		under installed apps section
+			add your app name 
+				FirstApp
+
+
+Step 2:
+Add the function in views.py file which is in FirstApp
+that you want to display in the web page
+
+Step 3:
+Connect the function with the urls.py file in
+the FirstProject folder 
+-------------------------------------------
