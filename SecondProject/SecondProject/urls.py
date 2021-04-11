@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from DemoApp import views
+from DemoApp import views as v
+from TimeApp import views as t
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-	path('gm/', views.goodMorning_view),
-	path('ga/', views.goodAfternoon_view),
-	path('ge/', views.goodEvening_view),
+	path('gm/', v.goodMorning_view),
+	path('ga/', v.goodAfternoon_view),
+	path('ge/', v.goodEvening_view),
+	path('time/', t.tellMeTime),
 ]
