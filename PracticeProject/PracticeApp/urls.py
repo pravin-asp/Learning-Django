@@ -18,6 +18,6 @@ from django.urls import path
 from PracticeApp import views 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    #path('admin/', admin.site.urls),
 	path('welcome/', views.WelcomePage),
 ]
