@@ -1,4 +1,5 @@
 <html>
+{% load static %}
 <head>
 <title> It is my first template </title>
 </head>
@@ -6,5 +7,6 @@
 <h1> Separate HTML file is Template {{display_date}} </h1>
 	{{name}}
 	{{message}}
+	<img src="{% static 'images/Burger.jpg' %}" alt="Burger"> 
 </body>
 </html>
