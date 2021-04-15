@@ -2,11 +2,13 @@
 {% load static %}
 <head>
 <title> It is my first template </title>
+<link rel = "stylesheet" href = "{% static 'css/add.css' %}">
 </head>
 <body>
 <h1> Separate HTML file is Template {{display_date}} </h1>
 	{{name}}
 	{{message}}
 	<img src="{% static 'images/Burger.jpg' %}" alt="Burger"> 
+		</img>
 </body>
 </html>
