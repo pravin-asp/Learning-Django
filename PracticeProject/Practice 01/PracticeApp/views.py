@@ -8,4 +8,4 @@ def WelcomePage(response):
 				<p>This project is only for my practice. This helps me to understan 
 				the Django project. How it works? These are my learnings. Thank YOu !!!</p>'''
 	return HttpResponse(message)"""
-	return render(response, 'Template/practice')
+	return render(response, 'Templates/practice.html')
