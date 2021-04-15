@@ -157,3 +157,14 @@ Step 3:
 Connect the function with the urls.py file in
 the FirstProject folder 
 -------------------------------------------
+
+
+Model 	- 
+
+View 	- Business Logic
+
+Template - Presentation Layer
+	Image
+	Style -> CSS - Cascading Style Sheet
+	Images/Videos/Audios
+	Static files 
