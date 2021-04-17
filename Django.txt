@@ -159,7 +159,7 @@ the FirstProject folder
 -------------------------------------------
 
 
-Model 	- 
+Model 	- database related files
 
 View 	- Business Logic
 
