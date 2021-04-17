@@ -160,7 +160,9 @@ the FirstProject folder
 
 
 Model 	- database related files
-
+		- Each model class is connected to the single database table
+		- Every model is subclass of models.Model
+			
 View 	- Business Logic
 
 Template - Presentation Layer
