@@ -181,3 +181,9 @@ python3 or python manage.py makemigrations ApplicationName
 	ApplicationName must be give when multiple applicaions are used in the project else it is not necessory.
 
 -----------------------------------------------
+
+to check what migrations are running use command
+
+	python3 or python manage.py migrate 
+	
+------------------------------------------------
