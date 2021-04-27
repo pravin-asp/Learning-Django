@@ -4,5 +4,8 @@ from django.db import models
 class Employee(models.Model):
 	empNo = models.IntegerField()
 	empName = models.CharField(max_length = 20)
-	empSalary = models.IntegerField()
-	empAddress = models.CharField(max_length = 50)
+	empSalary = models.FloatField()
+	empAddress = models.CharField(max_length = 100)
+
+
+# An object of one class behaving as an object of another class 
