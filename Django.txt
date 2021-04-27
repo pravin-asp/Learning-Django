@@ -187,3 +187,9 @@ to check what migrations are running use command
 	python3 or python manage.py migrate 
 	
 ------------------------------------------------
+
+to check how the table is create in sql use command
+	
+	python3 or python manage.py sqlmigrate ApplicationName 0001
+	
+------------------------------------------------
