@@ -170,3 +170,14 @@ Template - Presentation Layer
 	Style -> CSS - Cascading Style Sheet
 	Images/Videos/Audios
 	Static files 
+	
+	
+----------------------------------------------
+
+to connect to database use command
+
+python3 or python manage.py makemigrations ApplicationName
+
+	ApplicationName must be give when multiple applicaions are used in the project else it is not necessory.
+
+-----------------------------------------------
