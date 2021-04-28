@@ -3,6 +3,6 @@ from DBApp.models import Details
 
 # Register your models here.
 class AdminDetails(admin.ModelAdmin):
-	details = ['Name', 'PhoneNo', 'Address', 'Pincode']
+	details = ['Name', 'Address', 'PhoneNo', 'Pincode']
 	
 admin.site.register(Details, AdminDetails)
