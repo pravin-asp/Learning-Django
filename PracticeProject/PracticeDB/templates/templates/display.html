@@ -3,5 +3,17 @@
 <head> <title> Display Details </title> </head>
 <body>
 	<h1> Details </h1>
+	{% if Details %}
+	<table>
+		{% for data in Details %}
+		<tr>
+		<td>{{data.Name}}</td>
+		<td>{{data.PhoneNo}}</td>
+		<td>{{data.Address}}</td>
+		<td>{{data.Pincode}}</td>
+		</tr>
+		{% endfor %}
+	</table>
+	{% endif %} 
 </body>
 </html>
