@@ -1,0 +1,21 @@
+<html>
+	{% load static %}
+	<head>
+		<title> Display Page </title>
+	</head>
+	<body>
+		<h1> Displaying the Employee Details </h1>
+		{% if Data %}
+			<table>
+				{% for data in Data %}
+				<tr>
+					<td>{{data.empName}}</td>
+					<td>{{data.empID}}</td>
+					<td>{{data.empDept}}</td>
+					<td>{{data.empDOB}}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		{% endif %}
+	</body>
+</html>
