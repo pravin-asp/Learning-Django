@@ -3,5 +3,5 @@ from django import forms
 # Register your models here.
 
 class EmployeeInfoForm(forms.Form):
-	name = fomrs.CharField()
+	name = forms.CharField()
 	salary = forms.IntegerField()
