@@ -1,0 +1,20 @@
+<html>
+	{% load static %}
+	<head>
+		<title> Admin and Forms </title>
+	</head>
+	<body>
+		<h1> Details </h1>
+		{{form.as_p}}
+		{% if data %}
+		<table>
+			{% for d in data %}
+			<tr>
+				<td> {{d.Name}} </td>
+				<td> {{d.Email}} </td>
+			</tr>
+			{% endfor %}
+		</table>
+		{% endif %}
+	</body>
+</html>
