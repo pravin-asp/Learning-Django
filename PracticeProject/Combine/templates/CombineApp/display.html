@@ -1,0 +1,19 @@
+<html>
+	{% load static %}
+	<head>
+		<title> Form and Model </title>
+	</head>
+	<body>
+		{{forms.as_p}}
+		{% if model %}
+			<table>
+				{% for data in model %}
+					<tr>
+						<td>{{data.Name}}</td>
+						<td>{{data.Dob}}</td>
+					</tr>
+				{% endfor %}
+			</table>
+		{% endif %}
+	</body>
+</html>
