@@ -199,3 +199,17 @@ to create admin user name and password use command
 	python3 or python manage.py createsuperuser
 	
 -----------------------------------------------
+
+
+CRUD Operations
+
+Create - Data --> insert
+
+Retrive - Select * from tablename
+
+Update - update
+
+Delete - delete
+
+Function Based Views
+Class Based Views
