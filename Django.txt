@@ -213,3 +213,7 @@ Delete - delete
 
 Function Based Views
 Class Based Views
+
+models.Model --> Back End
+
+forms.Form --> Front End
