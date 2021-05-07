@@ -19,4 +19,5 @@ from crudApp import views
 
 urlpatterns = [
     path('display/', views.retrieve_view),
+	path('form/', views.form_view),
 ]
