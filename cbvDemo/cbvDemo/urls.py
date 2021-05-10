@@ -19,5 +19,6 @@ from cbvApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-	path('check/', views.FirstView.as_view()),
+	path('check1/', views.FirstView.as_view()),
+	path('check2/', views.SecondView.as_view()),
 ]
