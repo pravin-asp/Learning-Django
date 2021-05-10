@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from crudApp.models import Student
 from crudApp.forms import StudentForm
 
@@ -13,4 +13,10 @@ def form_view(request):
 		form = StudentForm(request.POST)
 		if form.is_valid():
 			form.save()
+			return redirect('/check/display')
 	return render(request, 'crudApp/create.html', {'form' : form})
+	
+def delete_view(request, id):
+	student = Student.objects.get(id = id)
+	student.delete()
+	return redirect('/check/display/')
