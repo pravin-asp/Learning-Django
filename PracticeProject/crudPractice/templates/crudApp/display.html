@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Display Details</title>
+	</head>
+	<body>
+		<h1> Student Details </h1>
+		{% if employee %}
+			<table>
+				<tr>
+					<td>Employee Name</td>
+					<td>Employee ID</td>
+				</tr>
+				{% for emp in employee %}
+					<tr>
+						<td>{{emp.Name}}</td>
+						<td>{{emp.EmpId}}</td>
+					</tr>
+				{% endfor %}
+			</table>
+		{% endif %}
+	</body>
+</html>
