@@ -7,16 +7,19 @@
 		{% if employee %}
 			<table>
 				<tr>
-					<td>Employee Name</td>
-					<td>Employee ID</td>
+					<td><h4>Employee Name</h4></td>
+					<td><h4>Employee ID</h4></td>
 				</tr>
 				{% for emp in employee %}
 					<tr>
 						<td>{{emp.Name}}</td>
 						<td>{{emp.EmpId}}</td>
+						<td><a href = '/check/update/{{emp.id}}'>Update</a>
+						<a href = '/check/delete/{{emp.id}}'>Delete</a></td>
 					</tr>
 				{% endfor %}
 			</table>
 		{% endif %}
+		<a href = '/check/form/'> <button type = 'button'> Add New Employee </button> </a>
 	</body>
 </html>

@@ -18,4 +18,7 @@ from crudApp import views
 
 urlpatterns = [
    path('display/', views.Display), 
+   path('form/', views.AddEmp),
+   path('update/<id>', views.update),
+   path('delete/<id>', views.delete),
 ]

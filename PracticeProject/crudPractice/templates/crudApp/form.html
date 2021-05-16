@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Display Details</title>
+	</head>
+	<body>
+		<h1> Add New Employee Information Here </h1>
+			<form method = 'POST'>
+				{{emp.as_p}}
+				{% csrf_token %}
+				<input type = 'submit' value = 'Add Student'>
+			</form>
+	</body>
+</html>
