@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title> Sign Up Details </title>
+	</head>
+	<body>
+		{% extends 'DetailsApp/base.html' %}
+			{% block content %}
+				<h1> Sign Up Form </h1>
+				<form method = 'POST'>
+					{{signup.as_p}}
+					{% csrf_token %}
+					<input type = 'submit' value = 'Submit Form'>
+				</form>
+			{% endblock %}
+	<body>
+</html>

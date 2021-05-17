@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title> Display Details </title>
+	</head>
+	<body>
+		{% extends 'DetailsApp/base.html' %}
+			{% block content %}
+				<h1> Info Details </h1>
+				{% if details %}
+					<table>
+						<thead>
+							<th> Email </th>
+							<th> Phone No </th>
+							<th> Password </th>
+						</thead>
+						<tr>
+							{% for dt in details %}
+								<td> {{dt.Email}} </td>
+								<td> {{dt.Phone_No}} </td>
+								<td> {{dt.Password}} </td>
+								<td> <a href = '/DetailsApp/edit/{{dt.id}}'> Update </a> </td>
+								<td> <a href = '/DetailsApp/remove/{{dt.id}}'> Delete </a> </td>
+						</tr>
+							{% endfor %}
+					</table>
+				{% endif %}
+				<a href = '/DetailsApp/signup'> <button> Sign Up </button> </a>
+			{% endblock %}
+	<body>
+</html>
