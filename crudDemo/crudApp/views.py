@@ -27,5 +27,5 @@ def update_view(request, id):
 		form = StudentForm(request.POST, instance = student)
 		if form.is_valid():
 			form.save()
-			return redirect('/check/display')
+			return redirect('/check/display/')
 	return render(request, 'crudApp/update.html', {'student' : student})

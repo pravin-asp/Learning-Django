@@ -1,0 +1,23 @@
+<html>
+	{% load static %}
+	<head>
+		<title> Login Info </title>
+	</head>
+	<body>
+		<h1> Information in the Database </h1>
+		{% if info %}
+			<table>
+				<tr>
+					<td>Username</td>
+					<td>Password</td>
+				</tr>
+				{% for i in info %}
+					<tr>
+						<td>{{i.Username}}</td>
+						<td>{{i.Password}}</td>
+					</tr>
+				{% endfor %}
+			</table>
+		{% endif %}
+	</body>
+</html>
